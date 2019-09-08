@@ -1,0 +1,18 @@
+git配对
+先输入ssh-keygen -t rsa -C"邮箱地址"
+直接回车
+然后打开id_rsa.pub
+进行密钥配对
+
+一些用法
+配对用户名和邮箱：
+git config -global user.name"用户名"
+git config -global user.email"邮箱"
+
+用法：
+先git init
+git remote add origin 克隆（建立对仓库的控制）
+git pull克隆（同步仓库）
+git add 文件（添加文件）
+git commit -m"  "（提交文件）
+git push 克隆(推送仓库）
