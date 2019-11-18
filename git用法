@@ -7,9 +7,9 @@ git配对
 
 
 一些用法
-配对用户名和邮箱：
-git config -global user.name"用户名"
-git config -global user.email"邮箱"
+配对用户名和邮箱： 
+git config --global user.name"用户名"
+git config --global user.email"邮箱"
 
 用法：
 先git init
