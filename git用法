@@ -4,6 +4,8 @@ git配对
 然后打开id_rsa.pub
 进行密钥配对
 
+
+
 一些用法
 配对用户名和邮箱：
 git config -global user.name"用户名"
